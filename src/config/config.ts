@@ -20,4 +20,6 @@ const config = {
 
 console.log("🚀 ~ file: config.ts:22 ~ config:", config);
 
+console.log("🚀 ~ file: config.ts:22 ~ config:", config);
+
 export { config };
