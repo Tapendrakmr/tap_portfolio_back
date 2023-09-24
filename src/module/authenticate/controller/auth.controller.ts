@@ -4,7 +4,7 @@ import { templateConstants } from "../../../common/templateConstant";
 class AuthController {
   async signUp(req: Request, res: Response, next: NextFunction) {
     try {
-      console.log("authController");
+      console.log("authController", req.body);
 
       res.locals.response = {
         body: {

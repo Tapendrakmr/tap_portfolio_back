@@ -6,7 +6,7 @@ class AuthRoutes {
     this.registerRoutes();
   }
   registerRoutes() {
-    this.authRouter.get("/signup", authController.signUp);
+    this.authRouter.post("/signup", authController.signUp);
   }
 }
 
